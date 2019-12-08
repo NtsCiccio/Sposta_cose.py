@@ -1,4 +1,4 @@
-![Screenshot](screen.png)
+![Screenshot](screen.jpg)
 
 # Why i created Sposta Cose.py
  Because i'm to lazy to drag and drop some file from one folder to another, in my case i need to move all the .jpg file in that folder but there are another file and i'm to lazy to move only the photo, so i created Sposta Cose.py
