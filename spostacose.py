@@ -14,9 +14,9 @@ def create_path(path, file):
 
 
 def succulent_part():
-    sourceDir = input("\nEnter the source direcotory path: ")
-    destDir   = input("\nEnter the destination direcotory path: ")
-    extension_file = input("\nEnter the extension file (pess enter if you want move all): ")
+    sourceDir = input("\nEnter the source directory path: ")
+    destDir   = input("\nEnter the destination directory path: ")
+    extension_file = input("\nEnter the extension file (press enter if you want to move all): ")
     try:
         for f in listdir(sourceDir):
             if not extension_file:
@@ -43,8 +43,8 @@ def clean_tha_screen():
 
 def show_menu():
     print(colored(pyfiglet.figlet_format("SPOSTA COSE.PY", font='slant'), 'red'))    
-    print(colored("Sposta Cose.py is a simple utility that help you move file from folder to another.\nUsage:\nProvide the source directory path"+
-    "and the destination directory path and the extension of file if you want move only the file that ends with for exaple with .txt",'green'))
+    print(colored("Sposta Cose.py is a simple utility that helps you tomove file from folder to another.\nUsage:\nProvide the source directory path"+
+    "and the destination directory path and the extension of file if you want to move only the file that ends with for example .txt",'green'))
 
 def main():
     clean_tha_screen()
